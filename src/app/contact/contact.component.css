@@ -1,0 +1,128 @@
+.contact-span1{
+    font-size: 120px;
+    font-weight: 800;
+    color:rgba(30, 37, 48, 0.07);
+    letter-spacing: 15px;
+   
+}
+.contact-span2{
+    font-family:calc(100px);
+   font-weight: 800;
+   font-size: 60px;
+   color: rgb(78, 69, 69);
+   margin-top: -130px;
+}
+.contact-span3{
+   color: rgb(116, 116, 240);
+}
+.contact-li-unstyled{
+    list-style: none;
+    margin-left: -40px;
+}
+.contact-li-unstyled li a i{
+  font-size: 30px;
+   padding-right: 20px;
+   padding-top:10px;
+   color: rgb(88, 88, 237);
+}
+.contact-li-unstyled li a{
+    text-decoration: none;
+}
+.contact-right-div h3{
+    text-transform: uppercase;
+    padding: 5px 0px;
+    font-size: 27px;
+    font-family: sans-serif;
+    font-weight: bold; 
+}
+.contact-right-div i{
+    color: rgb(88, 88, 237);
+}
+.contact-right-div  p{
+    margin-left:56px
+}
+.contact-right-div{
+    background-color: rgb(222, 234, 237);
+    border-radius: 0;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contact-left-div{
+  /* border: 1px solid; */
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.contact-footer-div{
+    background-color: rgb(229, 232, 231);
+}
+.contact-footer-div footer a{
+    text-decoration: none;
+
+}
+textarea{
+    width: 100%;
+    height: 200px;
+    margin-top: 30px;
+    outline: none;
+    border: 0;
+
+    /* border-inline: 1px 1px; */
+    background-color:rgb(234, 228, 228);
+    padding: 15px;
+    color:rgb(21, 20, 20);
+    resize: none;
+}
+/* input[type="text"],input[type="email"]{
+   
+} */
+.form-control{
+    width: 50%;
+    color:rgb(21, 20, 20);
+    height: 50px;
+    outline: none;
+    border-radius: 0;
+    background-color: rgb(234, 228, 228);
+    padding: 15px;
+    
+}
+.btn{
+    border-radius: 0%;
+    padding:10px 50px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+
+@media only screen and (width: 1024px){
+    .contact-right-div h3{
+        font-size: medium;
+        margin-left: 0px;
+    }
+    .contact-right-div {
+       padding: 10px 20px;
+
+    }
+    .contact-right-div p{
+        font-size: 15px;
+        margin-left: 38px;
+    }
+}
+
+
+@media only screen and (max-width: 990px) {
+    .contact-right-div{
+        margin-top: 50px;
+    }
+    .contact-span1{
+        font-size: 40px;
+        
+    }
+    .contact-span2{
+        font-size: 30px;
+        margin-top:-50px;
+    }
+  }
+  @media only screen and (max-width: 541px){
+    .contact-right-div h3{
+        font-size: 20px;
+    }
+  }

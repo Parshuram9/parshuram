@@ -1,0 +1,233 @@
+.about-me1{
+    height: 400px;
+}
+
+ .about-me2{
+    margin-left:350px;
+    margin-top: 130px;
+    width: 400px;
+    color:white;
+    font-weight: bolder;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
+}
+.span1 h1{
+    animation: firstanime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes firstanime{
+    /* 0%{opacity: 0.1;}
+    25%{opacity: 0.4;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.9;}
+    100%{opacity: 0;} */
+}
+.span2 h1{
+    animation: secondanime;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    transition: 0.5s;
+}
+@keyframes secondanime{
+    0%{margin-left:100px;opacity: 0.1;}
+    50%{opacity: 0.5;}
+    75%{opacity: 0.9;}
+    100%{opacity: 0;}
+}
+.aboutme-list{
+    list-style: none;
+}
+.aboutme-list li{
+    display: inline;
+    margin-right: 100px;
+    margin-left: -80px;
+}
+.aboutme-list li a{
+    text-decoration: none;
+   font-size: 40px;
+   /* border-radius: 100px; */
+   color: rgb(228, 242, 237);
+   
+}
+.aboutme-3{
+    background-image: url('C:\Users\parshuram\OneDrive\Desktop\Website-angular\my-website\src\assets\images\mypic.jpeg');
+    height:360px;
+    width:400px;
+    border: 5px solid white;
+    background-size:100% 100%;
+    background-position-x:center;
+    margin-left:150px;
+    margin-top: -200px;
+    background-repeat: no-repeat;
+}
+.aboutme-span3{
+    font-size: 120px;
+    font-weight: 800;
+    color:rgba(30, 37, 48, 0.07);
+    letter-spacing: 15px;
+   
+}
+.aboutme-span4{
+    font-family:calc(100px);
+   font-weight: 800;
+   font-size: 60px;
+   color: rgb(78, 69, 69);
+   margin-top: -130px;
+}
+.aboutme-span5{
+   color:  rgb(116, 116, 240);
+}
+.aboutme-tab1{
+display: flex;
+width: 100%;
+padding: 33px 24px;
+border: 1px solid rgb(228, 222, 222);
+border-radius: 0%;
+text-transform:uppercase;
+font-size: 20px;
+font-weight: 600;
+color: #575151;
+opacity: 0.7;
+}
+.aboutme-tabs-container{
+    margin-left: 150px;
+}
+.aboutme-tab1-content{
+   
+    padding: 33px 24px;
+    border: 1px solid rgb(228, 222, 222);
+    border-radius: 0%;
+    text-transform:uppercase;
+    font-size: 20px;
+    font-weight: 600;
+    color: #575151;
+    background-color:#f7f2f2;
+}
+.aboutme-tab1-content-section1{
+    line-height: 30px;
+}
+.aboutme-tab-content{
+    border: 1px solid rgb(228, 222, 222);
+    overflow: hidden;
+}
+.aboutme-tab2-content-section1{
+    text-transform: uppercase;
+  
+}
+.aboutme-tab2-content-section1-p{
+    font-size: small;
+}
+hr{
+    width: 70px;
+    border: 1px solid blue;
+    border-radius:20px;
+     margin-left: 0px;
+     background-color: blue;
+}
+.aboutme-footer{
+    height: 270px;
+    background-color: rgb(93, 93, 250);
+    display: flex;
+    align-items: center;
+    
+}
+.aboutme-footer div{
+    color: white;
+    display:grid;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-transform: uppercase;
+}
+.aboutme-footer div span{
+    font-size: 1.2rem;
+    font-weight: bold;
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+}
+.aboutme-footer div h1{
+   font-size: 4rem;
+   font-weight: bolder;
+}
+.aboutme-footer div i{
+    font-size: 40px;
+    padding: 10px;
+}
+@media only screen and (max-width:1100px){
+    .about-me1{
+        display: flex;
+        justify-content: center;
+    }
+    .about-me2{
+       transform: translate(-350px,-80px);
+        
+    }
+    .about-me2>ul{
+        display:none ;
+    }
+    .about-me2 .span2 h1{
+      font-size: 35px;
+    }
+
+   .abountme-10{
+       display: flex;
+       justify-content: center;
+   }
+   
+}
+@media only screen and (max-width:768px) {
+
+    .about-me2  .span1 h1 {
+        font-size: 50px;
+    }
+    .about-me2  .span2 h1 {
+        font-size: 40px;
+    }
+    .about-me2{
+        transform: translate(-180px,-60px);
+         
+     }
+     .aboutme-tabs-container{
+        display: none;
+    }
+     
+}
+@media only screen and (max-width:541px){
+    .aboutme-3{
+        margin-left: 45px;
+        margin-right: 45px;
+    }
+    .about-me2{
+        margin: auto;
+        width: 100%;
+        transform: translate(10px,-60px);
+    }
+    .aboutme-span3{
+        font-size: 40px;
+    }
+    .aboutme-span4{
+        font-size: 25px;
+        margin-top:-48px;
+    }
+    .aboutme-tabs-container{
+        display: none;
+    }
+    /* .aboutme-tab1-content{
+
+    }  */
+    .aboutme-tab1-content-section1 {
+        font-size: 15px;
+        padding: 0px;
+    }
+    .aboutme-footer div h1{
+        font-size: 25px;
+    }
+    .aboutme-footer div span{
+        font-size:14px ;
+        padding: 10px;
+        
+    }
+}
+    
+
