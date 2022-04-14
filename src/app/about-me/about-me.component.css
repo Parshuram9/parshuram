@@ -16,13 +16,13 @@
     animation-iteration-count: infinite;
     transition: 0.5s;
 }
-@keyframes firstanime{
-    /* 0%{opacity: 0.1;}
+/* @keyframes firstanime{
+    0%{opacity: 0.1;}
     25%{opacity: 0.4;}
     50%{opacity: 0.5;}
     75%{opacity: 0.9;}
-    100%{opacity: 0;} */
-}
+    100%{opacity: 0;}
+} */
 .span2 h1{
     animation: secondanime;
     animation-duration: 4s;
@@ -174,22 +174,24 @@ hr{
        display: flex;
        justify-content: center;
    }
-   
+   .aboutme-tabs-container{
+    margin:0px 0px;
+ }
 }
 @media only screen and (max-width:768px) {
 
     .about-me2  .span1 h1 {
-        font-size: 50px;
-    }
-    .about-me2  .span2 h1 {
         font-size: 40px;
     }
+    .about-me2  .span2 h1 {
+        font-size: 30px;
+    }
     .about-me2{
-        transform: translate(-180px,-60px);
+        transform: translate(-180px,-80px);
          
      }
      .aboutme-tabs-container{
-        display: none;
+       margin:0px 0px;
     }
      
 }
@@ -197,6 +199,12 @@ hr{
     .aboutme-3{
         margin-left: 45px;
         margin-right: 45px;
+    }
+    .about-me2 .span1 h1{
+        font-size: 25px;
+    }
+    .about-me2 .span2 h1{
+        font-size: 19px;
     }
     .about-me2{
         margin: auto;
@@ -210,15 +218,18 @@ hr{
         font-size: 25px;
         margin-top:-48px;
     }
-    .aboutme-tabs-container{
+    /* .aboutme-tabs-container{
         display: none;
-    }
+    } */
     /* .aboutme-tab1-content{
 
     }  */
     .aboutme-tab1-content-section1 {
         font-size: 15px;
-        padding: 0px;
+        padding: 0px 10px;
+    }
+    .aboutme-tab1-content-section2{
+        padding-right: 10px;
     }
     .aboutme-footer div h1{
         font-size: 25px;
@@ -228,6 +239,9 @@ hr{
         padding: 10px;
         
     }
+    .aboutme-tabs-container{
+      margin: 0px 0px;
+        
+    }
 }
-    
 
