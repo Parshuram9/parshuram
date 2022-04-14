@@ -175,7 +175,7 @@ hr{
        justify-content: center;
    }
    .aboutme-tabs-container{
-    margin:0px 0px;
+    margin-left: 150px;
  }
 }
 @media only screen and (max-width:768px) {
